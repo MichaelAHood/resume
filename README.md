@@ -1,2 +1,0 @@
-Satwant Rana's Resume
-=====================
