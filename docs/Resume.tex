@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Satwant \textsc{Rana}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{lr}
+\textsc{Undergraduate} &\textsc{+91 9958653745}\\
+\textsc{Mathematics and Computing } & \href{mailto:satwantrana42@gmail.com}{satwantrana42@gmail.com}\\
+\textsc{Indian Institute of Technology, Delhi\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } & \href{mailto:satwant.mt512@maths.iitd.ac.in}{satwant.mt512@maths.iitd.ac.in}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{cl}	
+
+\textsc{July} 2012 & Integrated M.Tech in \textsc{}\textsc{Mathematics and Computing} \\
+- &\textbf{Indian Institute of Technology}, Delhi\\
+\textsc{July} 2017 &\normalsize \textsc{Gpa}: 8.6/10.0 \\
+&\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Courses
+%----------------------------------------------------------------------------------------
+
+\section{Relevant Courses}
+
+\begin{tabular}{rlp{5cm}}
+
+\textsc{Mathematics:} & Combinatorics, Discrete Maths, Modern Algebra, Optimisation,
+\\&  Numerical Methods, Linear Algebra, Analysis, 
+\\ & Probability and Stochastic Processes, Calculus.\\
+
+\textsc{Computer Science:} & Algorithms, Data Structures, Computer Architecture,
+\\ & Operating Systems, Natural Language Processing, Neural Networks  \\
+
+\textsc{Electrical:} & Digital Design, Signal and Systems\\
+
+\textsc{Other:} &Econometrics\\
+
+\textsc{Online:} & Machine Learning, Probabilistic Graphical Models\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{tabular}{r|p{11cm}}
+
+\textsc{Present} & \emph{The Next Generation of Open Information Extraction}\\ 
+\textsc{May 2014} & \footnotesize{The project aims at creating the next generation of Open Information Extraction, a paradigm of IE aimed at extracting arbitrary relations. The main aims of the project are increasing precision and recall of the current version of OpenIE, in  the domains of list extraction, semantics of conjunctions and numeral understanding }\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Present} & \emph{Tweet Tokeniser}\\ 
+\textsc{Fall 2014} & \footnotesize{The project aims at creating a tokeniser for tweets, segmenting tweet sentences into invidual tokens of words or entities. As an additional feature the tokeniser will normalise dates in the sentences as well.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Spring 2013} & \emph{A data structure for company hierarchy}\\ 
+& \footnotesize{Implemented a Data Structure for storing Hierarchical Structure of a Company, with the features of quickly adding, deleting, and printing employees; along with an additional feature of finding the Lowest Common Ancestor of two employees. Implemented an AVL Tree for logarithmic time queries in the data structure.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Fall 2012} & \emph{DFS using higher order functional programming}\\ 
+& \footnotesize{Used higher order functions in Standard ML to implement a functional algorithm for Depth First Search. Implemented functional algorithms for Subset Sum problem, Knight's Tour problem and Stable Marriage problem using the higher order Depth First Search function.}\\
+
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Awards
+%----------------------------------------------------------------------------------------
+
+\section{Awards and Honours}
+
+\begin{tabular}{rl}
+2012 & 9th at ACM-ICPC Asian Regionals\\
+2012 & Attended Indian Training Camp for IOI\\
+\end{tabular}\\
+\begin{tabular}{rl}
+2012 & AIR 817 in IIT JEE\\
+2012 & AIR 85 in AIEEE\\
+2012 & Became KVPY fellow\\
+2011 & Rank 1 in RMO, Delhi region\\
+2011 & National Top 1 percentile award in NSEP and NSEA in 2012\\
+2010 & Qualified NSEJS and NSEA Jr. in 2010\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SPORT PROGRAMMING
+%----------------------------------------------------------------------------------------
+
+\section{Sport Programming}
+
+\begin{tabular}{ll}
+Codechef: & \href{http://www.codechef.com/users/satwantrana}{satwantrana}, currently ranked 307 in short contests\\
+Codeforces: & \href{http://codeforces.com/profile/satwant}{satwant}, blue rated\\
+Topcoder: & \href{http://community.topcoder.com/tc?module=MemberProfile&cr=23152984}{satwant123}, blue rated\\
+Awards: & 3rd in ACM-APC Asian Programming Contest conducted by IIT Delhi\\
+& 9th and 30th in ACM-ICPC Asian Regionals 2012 and 2013 resp.
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\begin{tabular}{rl}
+Languages: & \textsc{C++}, \textsc{Java}, \textsc{Python}, \textsc{C}, \textsc{SML-NJ}, \textsc{php}, \textsc{html}, \textsc{CSS}, \textsc{JS} \\
+
+Softwares/Tools: & \textsc{Django}, web2py, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Algorithms, AI, ML, Discrete Maths, Competitive Programming, Football, Movies, Travelling
+
+\end{document}
