@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.8.11)  23 AUG 2014 23:31
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2014.8.11)  24 AUG 2014 01:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -896,13 +896,13 @@ Overfull \hbox (0.87308pt too wide) in paragraph at lines 88--103
 . * 'bold italic small caps' with NFSS spec.:
 . <->"Fontin SmallCaps/ICU:script=latn;language=DFLT;mapping=tex-text;"
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
  (./Resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 196.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
  ) 
 Here is how much of TeX's memory you used:
  22190 strings out of 493938
