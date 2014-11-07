@@ -1,0 +1,230 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Satwant Rana's Resume
+%
+% based on
+%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: 
+%\addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+\usepackage{geometry}
+\geometry{bottom=0in}
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Satwant \textsc{Rana}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{lr}
+\textsc{Undergraduate} &\textsc{+91 9958653745}\\
+\textsc{Mathematics and Computing } & \href{mailto:satwantrana42@gmail.com}{satwantrana42@gmail.com}\\
+\textsc{Indian Institute of Technology, Delhi\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ } & \href{mailto:satwant.mt512@maths.iitd.ac.in}{satwant.mt512@maths.iitd.ac.in}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{cl}	
+
+\textsc{July} 2012 & Integrated M.Tech in \textsc{}\textsc{Mathematics and Computing} \\
+- &\textbf{Indian Institute of Technology}, Delhi\\
+\textsc{July} 2017 &\normalsize \textsc{Gpa}: 8.6/10.0 \\
+&\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Courses
+%----------------------------------------------------------------------------------------
+
+\section{Relevant Courses}
+
+\begin{tabular}{rlp{5cm}}
+
+\textsc{Mathematics:} & Combinatorics, Discrete Maths, Modern Algebra, Optimisation,
+\\&  Numerical Methods, Linear Algebra, Analysis, 
+\\ & Probability and Stochastic Processes, Calculus.\\
+
+\textsc{Computer Science:} & Algorithms, Data Structures, Computer Architecture,
+\\ & Operating Systems, Natural Language Processing, Neural Networks  \\
+
+\textsc{Electrical:} & Digital Design, Signal and Systems\\
+
+\textsc{Other:} &Econometrics\\
+
+\textsc{Online:} & Machine Learning, Probabilistic Graphical Models\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\begin{tabular}{rl}
+Languages: & \textsc{C++}, \textsc{Java}, \textsc{Python}, \textsc{SML-NJ}, \textsc{php}, \textsc{html}, \textsc{CSS}, \textsc{JS}, \textsc{theano}, \textsc{numpy}, \textsc{scipy} \\
+
+Softwares/Tools: & git, \textsc{Django}, web2py, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{tabular}{r|p{11cm}}
+
+\textsc{Present} & \emph{The Next Generation of Open Information Extraction}\\ 
+\textsc{Summer 2014} & Facilitator: Prof Mausam \\ &\footnotesize{The project aims at creating the next generation of Open Information Extraction, a paradigm of IE, by the University of Washington, aimed at extracting arbitrary relations. The main aims of the project are increasing precision and recall of the current version of OpenIE, in  the domains of list extraction, semantics of conjunctions and numeral understanding }\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Present} & \emph{Facial Expression Recognition using Autoencoders}\\ 
+\textsc{Fall 2014} & Facilitator: Prof Jayadeva \\ & \footnotesize{The project aims at creating a deep neural network based semi-supervised framework for inferring relevant high level features from unlabeled data, using available labels to disentangle the extracted features from potentially irrelevant features, in the domain of facial expression recognition.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Fall 2014}& \emph{Tweet Tokeniser}\\ 
+ & \footnotesize{Created a tokeniser for tweets, segmenting tweet sentences into invidual tokens of words or entities. The tokeniser had additional features of normalising dates and time in the sentences as well.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Fall 2014}& \emph{Sentiment Mining for Tweets}\\ 
+ & \footnotesize{The project aimed at creating a binary sentiment classification tool for tweets, with generic positive and negative sentiment labels. Explored Naive Bayes, SVM and Recurrent Neural Net classifiers. Implemented an SVM solution based on sentiment vectors for tweets.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Spring 2014}& \emph{Paice Husk Stemmer}\\ 
+ & \footnotesize{Implemented the Paice Husk Stemmer, as a patch for the Xapian project. Created a C++ version that can be fed directly with custom rules. Also wrote a program to create a Snowball version with custom rules. }\\
+\multicolumn{2}{c}{}\\
+
+
+%------------------------------------------------
+
+\textsc{Spring 2013} & \emph{A data structure for company hierarchy}\\ 
+& \footnotesize{Implemented a Data Structure for storing Hierarchical Structure of a Company, with the features of quickly adding, deleting and finding LCA in the heirarchial tree of two employees. Implemented an AVL Tree for logarithmic time queries in the data structure.}\\
+\multicolumn{2}{c}{} 
+
+\end{tabular}
+
+%\clearpage
+
+%----------------------------------------------------------------------------------------
+%	Awards
+%----------------------------------------------------------------------------------------
+
+\section{Awards and Honours}
+
+\begin{tabular}{rl}
+2014 & Shortlisted for Summer Undergraduate Research Award, IIT Delhi\\
+2012 & 9th at ACM-ICPC Asian Regionals\\
+2012 & Attended Indian Training Camp for IOI\\
+\end{tabular}\\
+\begin{tabular}{rl}
+2012 & All India Rank 817 in IIT JEE\\
+2012 & All India Rank 85 in All India Engineering Entrance Examination\\
+2012 & Became KVPY fellow\\
+2011 & Rank 1 in Regional Maths Olympiad, Delhi region\\
+2011 & National Top 1 percentile award in NSEP and NSEA in 2012\\
+2010 & Qualified NSEJS and NSEA Jr. in 2010\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	AFFILIATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Aff iliations}
+\begin{tabular}{rl}
+2014 & Member of Data and Artificial Intelligence Research Group, IIT Delhi \\
+2014 & Student Lecturer at Coding Club, IIT Delhi\\
+2013 & Student Lecturer at Indian National Maths Olympiad Training Camp, Delhi
+\end{tabular}\\
+
+
+
+%----------------------------------------------------------------------------------------
+%	SPORT PROGRAMMING
+%----------------------------------------------------------------------------------------
+
+\section{Sport Programming}
+
+\begin{tabular}{ll}
+Codechef: & \href{http://www.codechef.com/users/satwantrana}{satwantrana}, currently ranked 148 in short contests\\
+Codeforces: & \href{http://codeforces.com/profile/satwant}{satwant}, yellow rated, amongst top 30 in India\\
+Topcoder: & \href{http://community.topcoder.com/tc?module=MemberProfile&cr=23152984}{satwant123}, blue rated\\
+Awards: & 3rd in ACM - Asian Programming Contest, conducted by IIT Delhi\\
+& 9th and 30th in ACM-ICPC Asian Regionals 2012 and 2013 resp.
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Algorithms, AI, ML, Discrete Maths, Competitive Programming, Football, Movies, Travelling
+
+\end{document}
